@@ -1,10 +1,13 @@
 {
-  "name": "learnstorybook-design-system",
+  "name": "choi-learnstorybook-design-system",
   "version": "0.1.0",
   "private": false,
   "description": "Learn Storybook design system",
   "main": "dist/index.js",
-  "repository": "https://github.com/chromaui/learnstorybook-design-system.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chromaui/learnstorybook-design-system.git"
+  },
   "author": "Tom Coleman <tom@thesnail.org>",
   "license": "MIT",
   "dependencies": {
@@ -25,7 +28,8 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "build-storybook-docs": "build-storybook -s public --docs",
-    "release": "auto shipit"
+    "release": "auto shipit",
+    "create-labels": "auto create-labels"
   },
   "eslintConfig": {
     "extends": [
@@ -74,8 +78,12 @@
     "@storybook/node-logger": "^6.3.0",
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.3.0",
-    "auto": "^10.29.3",
+    "auto": "^10.32.2",
     "cross-env": "^7.0.3",
     "prettier": "^2.3.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/chromaui/learnstorybook-design-system/issues"
+  },
+  "homepage": "https://github.com/chromaui/learnstorybook-design-system#readme"
 }
