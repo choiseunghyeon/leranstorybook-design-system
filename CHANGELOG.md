@@ -1,3 +1,15 @@
+# v0.2.0 (Sat Oct 30 2021)
+
+#### 🚀 Enhancement
+
+- Added AvatarList and stories [#1](https://github.com/choiseunghyeon/leranstorybook-design-system/pull/1) ([@choiseunghyeon](https://github.com/choiseunghyeon))
+
+#### Authors: 1
+
+- choiseunghyeon ([@choiseunghyeon](https://github.com/choiseunghyeon))
+
+---
+
 # v0.1.1 (Sat Oct 30 2021)
 
 #### ⚠️ Pushed to `main`
